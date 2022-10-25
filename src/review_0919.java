@@ -1,5 +1,4 @@
-package InClass;
-/* 오늘 배운 것은 숫자와 문자를 입력받아서 이를 조합한 문장으로 출력하는 것 */
+
 
 import java.util.Scanner; // 자바 불러오기
 

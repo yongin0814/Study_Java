@@ -1,4 +1,4 @@
-package InClass;
+
 import java.util.Scanner;
 
 
