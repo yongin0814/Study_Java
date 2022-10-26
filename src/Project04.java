@@ -1,7 +1,7 @@
 
 import java.util.*;
 
-class Car
+class Carr
 {
 	
 	// 필요한 인스턴스 변수들
@@ -12,7 +12,7 @@ class Car
 	Scanner sc = new Scanner(System.in);
 	
 	// 생성자 만들어서 변수 초기화부터 해주기 
-	public Car(String n, String m, String c)
+	public Carr(String n, String m, String c)
 	{
 		number = n;
 		model = m;
@@ -144,8 +144,8 @@ public class Project04
 	public static void main(String[] args) 
 	{
 		
-		Car c1 = new Car("A123","Hyundai Cona","White");
-		Car c2=new Car("C987","Kia Sportage","Red");
+		Carr c1 = new Carr("A123","Hyundai Cona","White");
+		Carr c2=new Carr("C987","Kia Sportage","Red");
 		
 		c1.display();
 		c1.speedUp(80);
